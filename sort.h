@@ -27,5 +27,8 @@ void quick_sort_rec(int *array, int low, int high, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
 void swapem(listint_t *l, listint_t *r, listint_t **h);
+void counting_sort(int *array, size_t size);
+int findmax(int *array, size_t size);
+int count(int *array, size_t size, int val);
 
 #endif
